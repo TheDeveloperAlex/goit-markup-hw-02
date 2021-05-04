@@ -4,6 +4,7 @@
 Цвет заголовков-#212121
 Цвет подписи-#FFFFFF
 Цвет анимации - #2196f3
+Цвет логотипа - #000000
  */
 
 :root {
@@ -11,6 +12,19 @@
   --header-color: #212121;
   --main-header-color: #ffffff;
   --animation-color: #2196f3;
+  --logo-color: #000000;
+}
+
+/* Все ссылки */
+a {
+  text-decoration: none;
 }
 
 /* Логотип */
+.logo {
+  color: var(--logo-color);
+}
+
+.logo-beginning {
+  color: var(--animation-color);
+}
