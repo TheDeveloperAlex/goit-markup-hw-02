@@ -5,33 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
         <!-- Логотип -->
-        <a href="./index.html"><span>Web</span>studio</a>
+        <a href="./index.html" class="logo"><span class="logo-beginning">Web</span>studio</a>
         <!-- Навигация -->
         <nav>
             <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+                <li><a href="./index.html" class="nav">Студия</a></li>
+                <li><a href="./portfolio.html" class="nav nav-active">Портфолио</a></li>
+                <li><a href="" class="nav">Контакты</a></li>
             </ul>
         </nav>
         <ul>
-            <li><a href="">info@devstudio.com</a></li>
-            <li><a href="">+38 096 111 11 11</a></li>
+            <li><a href="" class="contacts">info@devstudio.com</a></li>
+            <li><a href="" class="contacts">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
         <section>
             <!-- фильтр -->
-            <ul>
-                <li><input type="button" value="Все"></li>
-                <li><input type="button" value="Веб-сайты"></li>
-                <li><input type="button" value="Приложения"></li>
-                <li><input type="button" value="Дизайн"></li>
-                <li><input type="button" value="Маркетинг"></li>
+            <ul >
+                <li><input type="button" value="Все" class="filter-button"></li>
+                <li><input type="button" value="Веб-сайты" class="filter-button"></li>
+                <li><input type="button" value="Приложения" class="filter-button"></li>
+                <li><input type="button" value="Дизайн" class="filter-button"></li>
+                <li><input type="button" value="Маркетинг" class="filter-button"></li>
             </ul>
         
             <!-- галерея -->
@@ -86,11 +88,11 @@
     </main>
     <footer>
         <!-- Подвал сайта -->
-        <a href=""><span>Web</span>studio</a>
+        <a href="./index.html" class="footer-logo"><span class="logo-beginning">Web</span>studio</a>
         <address>
             г. Киев, пр-т Леси Украинки, 26
         </address>
-        <ul>
+        <ul class="footer-contacts">
             <li><a href="">info@example.com</a></li>
             <li><a href="">+38 099 111 11 11</a></li>
         </ul>

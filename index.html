@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студия</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
@@ -13,26 +15,26 @@
         <!-- Навигация -->
         <nav>
             <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+                <li><a href="./index.html" class="nav nav-active">Студия</a></li>
+                <li><a href="./portfolio.html" class="nav">Портфолио</a></li>
+                <li><a href="" class="nav">Контакты</a></li>
             </ul>
         </nav>
         <ul>
-            <li><a href="">info@devstudio.com</a></li>
-            <li><a href="">+38 096 111 11 11</a></li>
+            <li><a href="" class="contacts">info@devstudio.com</a></li>
+            <li><a href="" class="contacts">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
         <!-- Герой -->
-        <section>
+        <section class="hero">
             <h1>Эффективные решения для вашего бизнеса</h1>
-            <input type="button" value="Заказать услугу">
+            <input type="button" value="Заказать услугу" class="button">
         </section>
         <section>
             <!-- Наши преимущества -->
-            <ul>
-                <li>
+            <ul class="container">
+                <li >
                     <h3>Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
@@ -52,40 +54,40 @@
         </section>
         <section>
             <!-- роды деятельности -->
-            <h2>Чем мы занимаемся</h2>
+            <h2 class="header">Чем мы занимаемся</h2>
             <ul>
                 <li>
-                    <img src="./images/img-programming.jpg" alt="Написание программы" width="370px">
+                    <img src="./images/img-programming.jpg" alt="Написание программы" width="370">
                 </li>
                 <li>
-                    <img src="./images/img-mobile-applications.jpg" alt="Мобильные приложения" width="370px">
+                    <img src="./images/img-mobile-applications.jpg" alt="Мобильные приложения" width="370">
                 </li>
                 <li>
-                    <img src="./images/img-design.jpg" alt="Дизайн" width="370px">
+                    <img src="./images/img-design.jpg" alt="Дизайн" width="370">
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="team">
             <!-- Команда -->
-            <h2>Наша команда</h2>
-            <ul>
+            <h2  class="header">Наша команда</h2>
+            <ul class="cards">
                 <li>
-                    <img src="./images/img-Igor-Demyanenko.jpg" alt="Игорь Демьяненко фото" width="270px">
+                    <img src="./images/img-Igor-Demyanenko.jpg" alt="Игорь Демьяненко фото" width="270">
                     <h3>Игорь Демьяненко</h3>
                     <p>Product Designer</p>
                 </li>
                 <li>
-                    <img src="./images/img-Olga-Repina.jpg" alt="Ольга Репина фото" width="270px">
+                    <img src="./images/img-Olga-Repina.jpg" alt="Ольга Репина фото" width="270">
                     <h3>Ольга Репина</h3>
                     <p>Frontend Developer</p>
                 </li>
                 <li>
-                    <img src="./images/img-Nikolay-Tarasov.jpg" alt="Николай Тарасов фото" width="270px">
+                    <img src="./images/img-Nikolay-Tarasov.jpg" alt="Николай Тарасов фото" width="270">
                     <h3>Николай Тарасов</h3>
                     <p>Marketing</p>
                 </li>
                 <li>
-                    <img src="./images/img-Mikhail-Ermakov.jpg" alt="Михаил Ермаков фото" width="270px">
+                    <img src="./images/img-Mikhail-Ermakov.jpg" alt="Михаил Ермаков фото" width="270">
                     <h3>Михаил Ермаков</h3>
                     <p>UI Designer</p>
                 </li>
@@ -94,11 +96,11 @@
     </main>
     <footer>
         <!-- Подвал сайта -->
-        <a href=""><span>Web</span>studio</a>
+        <a href="./index.html" class="footer-logo"><span class="logo-beginning">Web</span>studio</a>
         <address>
             г. Киев, пр-т Леси Украинки, 26
         </address>
-        <ul>
+        <ul class="footer-contacts">
             <li><a href="">info@example.com</a></li>
             <li><a href="">+38 099 111 11 11</a></li>
         </ul>

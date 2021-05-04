@@ -5,6 +5,7 @@
 Цвет подписи-#FFFFFF
 Цвет анимации - #2196f3
 Цвет логотипа - #000000
+ - #F5F4FA
  */
 
 :root {
@@ -13,6 +14,15 @@
   --main-header-color: #ffffff;
   --animation-color: #2196f3;
   --logo-color: #000000;
+  --bg-color: #f5f4fa;
+  --animation-botton-color: #188ce8;
+  --footer-bg-color: #2f303a;
+}
+
+body {
+  color: var(--main-text-color);
+  margin: 0px;
+  padding: 0px;
 }
 
 /* Все ссылки */
@@ -27,4 +37,101 @@ a {
 
 .logo-beginning {
   color: var(--animation-color);
+}
+
+/* Навигация страницы */
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  color: var(--header-color);
+}
+.nav:hover {
+  color: var(--animation-color);
+}
+
+.nav-active {
+  color: var(--animation-color);
+}
+
+/* Контакты */
+.contacts {
+  color: var(--main-text-color);
+}
+
+.contacts:hover {
+  color: var(--animation-color);
+}
+
+/* Герой */
+.hero {
+  background-color: var(--logo-color);
+}
+h1 {
+  color: var(--main-header-color);
+}
+
+.button {
+  background-color: var(--animation-color);
+  color: var(--main-header-color);
+}
+.button:hover {
+  background-color: var(--animation-botton-color);
+}
+
+/* Наши преимущества */
+h3 {
+  color: var(--header-color);
+}
+
+.container li {
+  width: 270px;
+}
+
+/* Чем мы занимаемся */
+
+.header {
+  color: var(--header-color);
+}
+
+/* Наша команда */
+.team {
+  background-color: var(--bg-color);
+}
+
+.cards li {
+  width: 270px;
+  background-color: var(--main-header-color);
+}
+
+/* Подвал сайта */
+footer {
+  background-color: var(--footer-bg-color);
+}
+
+.footer-logo {
+  color: var(--main-header-color);
+}
+
+address {
+  color: var(--main-header-color);
+}
+
+.footer-contacts li a {
+  color: rgba(100%, 100%, 100%, 60%);
+}
+
+/* Стили к portfolio.html */
+.filter-button {
+  background-color: var(--bg-color);
+  color: var(--header-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--animation-color);
+  color: var(--main-header-color);
 }
