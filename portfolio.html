@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -20,24 +22,24 @@
                 <li><a href="" class="nav">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="" class="contacts">info@devstudio.com</a></li>
-            <li><a href="" class="contacts">+38 096 111 11 11</a></li>
+        <ul class="contacts">
+            <li><a href="#" >info@devstudio.com</a></li>
+            <li><a href="#" >+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
         <section>
             <!-- фильтр -->
-            <ul >
-                <li><input type="button" value="Все" class="filter-button"></li>
-                <li><input type="button" value="Веб-сайты" class="filter-button"></li>
-                <li><input type="button" value="Приложения" class="filter-button"></li>
-                <li><input type="button" value="Дизайн" class="filter-button"></li>
-                <li><input type="button" value="Маркетинг" class="filter-button"></li>
+            <ul>
+                <li><button class="filter-button">Все</button></li>
+                <li><button class="filter-button">Веб-сайты</button></li>
+                <li><button class="filter-button">Приложения</button></li>
+                <li><button class="filter-button">Дизайн</button></li>
+                <li><button class="filter-button">Маркетинг</button></li>
             </ul>
         
             <!-- галерея -->
-            <ul>
+            <ul class="gallery">
                 <li>
                     <img src="./images/img-technokryak.jpg" alt="Технокряк" width="370">
                     <h3>Технокряк</h3>
@@ -93,8 +95,8 @@
             г. Киев, пр-т Леси Украинки, 26
         </address>
         <ul class="footer-contacts">
-            <li><a href="">info@example.com</a></li>
-            <li><a href="">+38 099 111 11 11</a></li>
+            <li><a href="#">info@example.com</a></li>
+            <li><a href="#">+38 099 111 11 11</a></li>
         </ul>
     </footer>
 </body>
